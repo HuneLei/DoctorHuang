@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/find/find",
+    "pages/cart/cart",
+    "pages/my/my",
+    "pages/home-details/home-details",
+    "pages/pay/pay",
+    "pages/about/about",
+    "pages/index/index",
+    "pages/addCgi/addCgi"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "Wafer Quick Start",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#405F80",
+    "borderStyle": "#CECECE",
+    "list": [
+      {
+        "selectedIconPath": "image/3.1首页-选中.png",
+        "iconPath": "image/3.1首页.png",
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "image/3.1首页-选中.png",
+        "iconPath": "image/3.1首页.png",
+        "pagePath": "pages/find/find",
+        "text": "发现"
+      },
+      {
+        "selectedIconPath": "image/3.1购物车-选中.png",
+        "iconPath": "image/3.1购物车.png",
+        "pagePath": "pages/cart/cart",
+        "text": "购物车"
+      },
+      {
+        "selectedIconPath": "image/3.1我的-选中.png",
+        "iconPath": "image/3.1我的.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
